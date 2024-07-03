@@ -20,6 +20,7 @@ import {
   nha,
   angular,
   codepen,
+  medvinst,
   mapty,
   forkify,
   threejs,
@@ -46,12 +47,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
-    icon: mobile,
-  },
-  {
     title: "Angular Developer",
     icon: backend,
+  },
+  {
+    title: "React Developer",
+    icon: mobile,
   },
   //   {
   //     title: "Content Creator",
@@ -129,7 +130,7 @@ const experiences = [
       "Contributed in developing an application related to General ledger using Angular and .NET.",
       "Collaborated with UI/UX designers to translate wireframes and mockups into functional interfaces, maintaining visual consistency.",
       "Utilized RESTful APIs to integrate backend services, enhancing application functionality and performance.",
-      "Implemented Angular Material components to build input forms.",
+      "Effectively leveraged Angular Material components to enhance input forms and create visually attractive layouts.",
     ],
   },
   {
@@ -142,7 +143,7 @@ const experiences = [
       "Developed and maintained Angular applications for various clients.",
       "Created Web applications from scratch implementing authorization with JSON Web token and securing routes from unauthorized users using Angular route guards.",
       "Utilized RxJS to implement efficient state management solutions, employing techniques such as BehaviorSubject and observable streams to propagate changes across components.",
-      "Optimized applications performances by lazy loading modules and minimizing HTTP requests.",
+      "Optimized applications performances by lazy loading modules, preventing memory leaks and minimizing HTTP requests.",
     ],
   },
   // {
@@ -202,6 +203,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Medvinst",
+    description:
+      "Web-based platform that compares product prices accross multiple pharmacies.",
+    // "Web-based platform that functions as an online code editor for HTML/CSS & JavaScript.",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: medvinst,
+    source_code_link: "https://www.medvinst.se/#/medvinst",
+  },
+  {
     name: "Code-pen Clone",
     // description:
     //   "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -245,27 +268,27 @@ const projects = [
     image: mapty,
     source_code_link: "https://github.com/Usman-Ahmad-99/Mapty",
   },
-  {
-    name: "Forkify",
-    description:
-      "Forkify is a recipe finding web application, with custom recipe uploads.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: forkify,
-    source_code_link: "https://github.com/Usman-Ahmad-99/forkify-app",
-  },
+  // {
+  //   name: "Forkify",
+  //   description:
+  //     "Forkify is a recipe finding web application, with custom recipe uploads.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: forkify,
+  //   source_code_link: "https://github.com/Usman-Ahmad-99/forkify-app",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

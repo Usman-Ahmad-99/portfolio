@@ -27,6 +27,7 @@ import lps from "./company/lps.png";
 import nha from "./company/nha.png";
 
 import codepen from "./code-pen.png";
+import medvinst from "./medvinst.png";
 import mapty from "./mapty.png";
 import forkify from "./forkify.png";
 
@@ -57,6 +58,7 @@ export {
   lps,
   nha,
   codepen,
+  medvinst,
   mapty,
   forkify,
 };
